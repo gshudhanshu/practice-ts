@@ -1,0 +1,26 @@
+{
+  "name": "understanding-typescript-exercises",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hands-on exercise suite for Maximilian Schwarzmueller's Understanding TypeScript course, plus job-prep bonus sections.",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify:solutions": "node scripts/verify-solutions.mjs",
+    "check:cheatsheet": "node scripts/check-cheatsheet.mjs",
+    "audit": "node scripts/audit.mjs",
+    "check:inplace": "node scripts/check-solutions-inplace.mjs"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.5.0",
+    "@types/react": "^19.2.18",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.2.8"
+  }
+}
